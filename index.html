@@ -34,8 +34,85 @@
                 src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\user.svg">
         </div>
     </header>
+    <div class="detailPopup" id="detailPopup">
+        <div onclick="popupnone()" id="gray"></div>
+        <div class="detailContainer">
+            <div onclick="popupnone()"
+                style="background-color: black; color: white; position: absolute; border: 1rem; padding: 0.5rem 0.7rem; margin: 1rem;  border-radius: 50%; z-index: 5; ">
+                X</div>
+            <div
+                style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
+                <div
+                    style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; ">
+                    <img style="max-width: 27vw; max-height: 27vw;"
+                        src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfhoTfqkO327zTAcG9vuWYor3G71_Ojg2SXbKjfFVhq5BwhJlCinFoYCaNXQ1CYyhJehQPMMp-aluTlAObKDArTPWmMiIEAzQOAFxbspB_jnpMGXq0c8sS5UYqFLc7hjk6M74G_iMJq-T4JTNdLKqIXWaccVfbufExpH9k33gslh.webp?r=814">
+                    <div
+                        style="display: flex; flex-direction: row; justify-content:flex-start; align-items: center; flex-wrap: nowrap;">
+                        <button
+                            style="padding: 0.5rem 1.6rem; margin: 1rem; background-color: white; border-radius: 4px; letter-spacing: 0.1rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap;"><i
+                                style="margin: 0.5rem 1rem;" class="fas fa-play"></i>
+                            <p style="margin-right: 0.6rem;">Oynat</p>
+                        </button>
 
-    <div
+                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin: 0rem 0.5vw;"
+                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\plus.svg">
+                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray;"
+                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\like.svg">
+                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin-left: 0.5vw;"
+                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\dislike.svg">
+
+                    </div>
+                </div>
+
+                <div
+                    style="position: absolute;  width: 100%; height: 100%;
+                    background: linear-gradient( rgba(1,0,8,0) 72%, rgba(0,0,0,0.9556197478991597) 90%); z-index: 5; line-height: 1.6vw; ">
+                </div>
+                <img class="static-image"
+                    src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXNcl61RXcgOJugPEheD_2az0jOUaLs--tWvEcC5Bn5dJXPl8PObsA51MsWLda26oRfgROHTMz2qHRW_ZmeNwCgGQGNuT8_HjR62__3FcrcFkr-7bA.webp?r=ff1">
+
+            </div>
+        </div>
+        <div class="detailInfo">
+            <div class="metaData">
+                <div class="leftLine">
+                    <div class="firstLine">
+                        <span style="color: #46d369;
+                    ">%82 Eşleşme</span>
+                        <div>2018</div>
+                        <span>16+</span>
+                        <div>2 Sezon</div>
+                        <span>HD</span>
+                    </div>
+                    <div class="secondLine">
+                        Sıra dışı amatör dedektif Dirk ile gönülsüz asistanı Todd, karmaşık ve tehlikeli doğaüstü
+                        gizemleri gelişigüzel yöntemlerle çözmeye çalışırlar.
+                    </div>
+                </div>
+                <div class="rightLine">
+                    <ul>
+                        <li>
+                            <p>Oyuncu Kadrosu:</p>
+                            <p>Samuel Barnett,Elijah Wood,Hnnah Marks, daha fazla</p>
+                        </li>
+                        <li>
+                            <p>Türler:</p>
+                            <p>Gizem Dizileri, Suç Temalı Diziler, Bilim Kurgu Dizisi</p>
+                        </li>
+                        <li>
+                            <p>Bu İçerik:</p>
+                            <p>Akılalmaz, Sıra Dışı, Heyecanlı</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="episodes"></div>
+            <div class="similar"></div>
+            <div class="fragman"></div>
+            <div class="about"></div>
+        </div>
+    </div>
+    <div id="anaicerik"
         style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
         <div style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; letter-spacing: 2px;
         ">
@@ -70,10 +147,10 @@
                 
                 padding-left: 2rem;
                 padding-right: 2.4rem;
-                padding-top: 1rem;
+                padding-top: 0.5rem;
                 padding-bottom: 1rem;
                 border-radius:3px; 
-                font-weight: 900;
+                font-weight: 700;
                 letter-spacing: 0.1rem;
                 font-size: 1.5rem"><i class="fas fa-exclamation" style="margin: 0.3vw;"></i>
 
@@ -238,6 +315,12 @@
 
 
 </body>
+<script>
+    var popup = document.getElementById("detailPopup")
+    function popupnone() {
+        popup.style.display = "none";
+    }
+</script>
 <style>
     body {
         color: white;
@@ -266,14 +349,6 @@
         margin-left: 6vh;
     }
 
-    .fill-container {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-    }
-
     .static-image {
         left: 0;
         right: 0;
@@ -282,6 +357,86 @@
         width: 100%;
         z-index: 3;
     }
+
+    .detailPopup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        top: 0vw;
+    }
+
+    .detailPopup #gray {
+
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        opacity: 0.3;
+        z-index: -99;
+    }
+
+    .detailContainer {
+        position: relative;
+    }
+
+    .previewModel {
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+    }
+
+    .detailInfo {
+        background-color: black;
+    }
+
+    .metaData {}
+
+    .bFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 </style>
 
 </html>
+
+
+
+<!--
+    
+    let iceriklar  = {
+        filmşer: [{
+            isim: 
+            buyukResim
+            oyuncular
+            aciklamasi
+            benzerleri,
+            yili:
+        },
+        {
+            isim: 
+            buyukResim
+            oyuncular
+            aciklamasi
+            benzerleri,
+            yili:
+        }
+    ]
+    
+}
+let anaicerikOlacak = iceriklar.filmşer[0];
+let anicerkclass = document.getElementById("anaicerik")
+anicerkclass.style.backgroundImage = anaicerikOlacak.buyukResim;
+anicerkclass.innerText = anaicerikOlacak.aciklamasi;
+
+
+iceriklar.filmşer.forEach(film => {
+
+})
+-->
