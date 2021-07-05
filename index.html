@@ -36,83 +36,208 @@
     </header>
     <div class="detailPopup" id="detailPopup">
         <div onclick="popupnone()" id="gray"></div>
-        <div class="detailContainer">
-            <div onclick="popupnone()"
-                style="background-color: black; color: white; position: absolute; border: 1rem; padding: 0.5rem 0.7rem; margin: 1rem;  border-radius: 50%; z-index: 5; ">
-                X</div>
-            <div
-                style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
+        <div class="contents">
+            <div class="detailContainer">
+                <div onclick="popupnone()"
+                    style="background-color: black; color: white; position: absolute; border: 1rem; padding: 0.5rem 0.7rem; margin: 1rem;  border-radius: 50%; z-index: 5; ">
+                    X</div>
                 <div
-                    style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; ">
-                    <img style="max-width: 27vw; max-height: 27vw;"
-                        src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfhoTfqkO327zTAcG9vuWYor3G71_Ojg2SXbKjfFVhq5BwhJlCinFoYCaNXQ1CYyhJehQPMMp-aluTlAObKDArTPWmMiIEAzQOAFxbspB_jnpMGXq0c8sS5UYqFLc7hjk6M74G_iMJq-T4JTNdLKqIXWaccVfbufExpH9k33gslh.webp?r=814">
+                    style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
                     <div
-                        style="display: flex; flex-direction: row; justify-content:flex-start; align-items: center; flex-wrap: nowrap;">
-                        <button
-                            style="padding: 0.5rem 1.6rem; margin: 1rem; background-color: white; border-radius: 4px; letter-spacing: 0.1rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap;"><i
-                                style="margin: 0.5rem 1rem;" class="fas fa-play"></i>
-                            <p style="margin-right: 0.6rem;">Oynat</p>
-                        </button>
+                        style="position: absolute; z-index: 10; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; bottom: 8vw ; ">
+                        <img style="max-width: 27vw; max-height: 27vw;"
+                            src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfhoTfqkO327zTAcG9vuWYor3G71_Ojg2SXbKjfFVhq5BwhJlCinFoYCaNXQ1CYyhJehQPMMp-aluTlAObKDArTPWmMiIEAzQOAFxbspB_jnpMGXq0c8sS5UYqFLc7hjk6M74G_iMJq-T4JTNdLKqIXWaccVfbufExpH9k33gslh.webp?r=814">
+                        <div
+                            style="display: flex; flex-direction: row; justify-content:flex-start; align-items: center; flex-wrap: nowrap; font-size: 1vw;">
+                            <button
+                                style="padding: 0.5rem 1.6rem; margin: 1rem; background-color: white; border-radius: 4px; letter-spacing: 0.1rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap; font-size: 1vw;"><i
+                                    style="margin: 0.5rem 1rem;" class="fas fa-play"></i>
+                                <p style="margin-right: 0.6rem;">Oynat</p>
+                            </button>
 
-                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin: 0rem 0.5vw;"
-                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\plus.svg">
-                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray;"
-                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\like.svg">
-                        <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin-left: 0.5vw;"
-                            src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\dislike.svg">
+                            <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin: 0rem 0.5vw;"
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\plus.svg">
+                            <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray;"
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\like.svg">
+                            <img style=" width: 1.5rem; padding: 0.5rem; border: gray; border-radius: 50%; background-color: gray; margin-left: 0.5vw;"
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\dislike.svg">
 
+                        </div>
                     </div>
-                </div>
 
-                <div
-                    style="position: absolute;  width: 100%; height: 100%;
-                    background: linear-gradient( rgba(1,0,8,0) 72%, rgba(0,0,0,0.9556197478991597) 90%); z-index: 5; line-height: 1.6vw; ">
-                </div>
-                <img class="static-image"
-                    src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXNcl61RXcgOJugPEheD_2az0jOUaLs--tWvEcC5Bn5dJXPl8PObsA51MsWLda26oRfgROHTMz2qHRW_ZmeNwCgGQGNuT8_HjR62__3FcrcFkr-7bA.webp?r=ff1">
+                    <div
+                        style="position: absolute;  width: 100%; height: 100%;
+                        background: linear-gradient( rgba(1,0,8,0) 72%, rgba(7.8, 7.8, 7.8,0.9556197478991597) 90%); z-index: 5; line-height: 1.6vw; ">
+                    </div>
+                    <img class="static-image" style="border-radius: .4vw;"
+                        src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXNcl61RXcgOJugPEheD_2az0jOUaLs--tWvEcC5Bn5dJXPl8PObsA51MsWLda26oRfgROHTMz2qHRW_ZmeNwCgGQGNuT8_HjR62__3FcrcFkr-7bA.webp?r=ff1">
 
-            </div>
-        </div>
-        <div class="detailInfo">
-            <div class="metaData">
-                <div class="leftLine">
-                    <div class="firstLine">
-                        <span style="color: #46d369;
-                    ">%82 Eşleşme</span>
-                        <div>2018</div>
-                        <span>16+</span>
-                        <div>2 Sezon</div>
-                        <span>HD</span>
-                    </div>
-                    <div class="secondLine">
-                        Sıra dışı amatör dedektif Dirk ile gönülsüz asistanı Todd, karmaşık ve tehlikeli doğaüstü
-                        gizemleri gelişigüzel yöntemlerle çözmeye çalışırlar.
-                    </div>
-                </div>
-                <div class="rightLine">
-                    <ul>
-                        <li>
-                            <p>Oyuncu Kadrosu:</p>
-                            <p>Samuel Barnett,Elijah Wood,Hnnah Marks, daha fazla</p>
-                        </li>
-                        <li>
-                            <p>Türler:</p>
-                            <p>Gizem Dizileri, Suç Temalı Diziler, Bilim Kurgu Dizisi</p>
-                        </li>
-                        <li>
-                            <p>Bu İçerik:</p>
-                            <p>Akılalmaz, Sıra Dışı, Heyecanlı</p>
-                        </li>
-                    </ul>
                 </div>
             </div>
-            <div class="episodes"></div>
-            <div class="similar"></div>
-            <div class="fragman"></div>
-            <div class="about"></div>
+            <div class="detailInfo">
+                <div class="metaData">
+                    <div class="leftLine bFlex">
+                        <div class="firstLine bFlex">
+                            <div style="color: #46d369; ">%82 Eşleşme</div>
+                            <div style="margin: 0rem 0.5rem; ">2021</div>
+                            <div style="border: 0.2vw white; border-style: solid;">16+</div>
+                            <div class="bFlex" style="flex-wrap: nowrap; margin: 0rem 0.5rem;">2 Sezon</div>
+                            <div
+                                style="border: 0.1vw white; border-style: solid; font-size: 0.5vw; border-radius: 1px;">
+                                HD</div>
+
+                        </div>
+                        <p class="secondLine">
+                            Sıra dışı amatör dedektif Dirk ile gönülsüz asistanı
+                            Todd, karmaşık ve tehlikeli doğaüstü
+                            gizemleri gelişigüzel yöntemlerle çözmeye çalışırlar.
+                        </p>
+                    </div>
+                    <div class="rightLine bFlex">
+                        <ul>
+                            <li>
+                                <p class="RLPStyle">Oyuncu Kadrosu:</p>
+                                <p>Samuel Barnett,Elijah Wood,Hnnah Marks, daha fazla</p>
+                            </li>
+                            <li>
+                                <p class="RLPStyle">Türler:</p>
+                                <p>Gizem Dizileri, Suç Temalı Diziler, Bilim Kurgu Dizisi</p>
+                            </li>
+                            <li>
+                                <p class="RLPStyle">Bu İçerik:</p>
+                                <p>Akılalmaz, Sıra Dışı, Heyecanlı</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="episodes">
+                    <div class="header bFlex" style="justify-content:space-between; margin-bottom: 2vw;">
+                        <div style="   font-size: 24px; font-weight: 700;">Bölümler</div>
+                        <div style="font-size: 18px;">1. Sezon</div>
+
+                    </div>
+                    <div class="bFlex"
+                        style="background-color: #333; border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style="border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style="border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style="border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style=" border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style=" border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bFlex"
+                        style=" border-top: 1px solid #404040; border-radius: 5px;">
+                        <div style="margin-left: 4vw;">1</div>
+                        <img class="smallImage" src="./images/films/drama/fight-club/small.jpg">
+                        <div class="icerik">
+                            <div class="bFlex" style="justify-content: space-between; padding:  1em 1em;">
+                                <div class="baslik">Ormandan Ayrılış</div>
+
+                                <div class="sure">54 dk.</div>
+                            </div>
+                            <p class="icerikText">
+                                Babası tarafından ücra bir orman kulübesinde büyütülen Gus, hayatta kalma ve çitlerin
+                                ötesindeki dünyada gizlenen tehlikeler üzerine dersler alır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar"></div>
+                <div class="fragman"></div>
+                <div class="about"></div>
+            </div>
         </div>
+
     </div>
-    <div id="anaicerik"
+
+    <div
         style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
         <div style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; letter-spacing: 2px;
         ">
@@ -316,6 +441,7 @@
 
 </body>
 <script>
+
     var popup = document.getElementById("detailPopup")
     function popupnone() {
         popup.style.display = "none";
@@ -350,24 +476,20 @@
     }
 
     .static-image {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
         width: 100%;
         z-index: 3;
     }
 
     .detailPopup {
+        overflow: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         z-index: 99;
-        top: 0vw;
     }
 
     .detailPopup #gray {
@@ -378,6 +500,7 @@
         background-color: gray;
         opacity: 0.3;
         z-index: -99;
+        padding-left: 1rem;
     }
 
     .detailContainer {
@@ -391,16 +514,101 @@
     }
 
     .detailInfo {
-        background-color: black;
+        padding: 0 3em;
+        background-color: #141414;
+
     }
 
-    .metaData {}
+    .metaData {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        margin: 3% 0;
+
+    }
 
     .bFlex {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .leftLine {
+        width: 40rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 1vw;
+
+    }
+
+    .firstLine {
+        flex-wrap: wrap;
+        margin-bottom: 1vw;
+    }
+
+    .secondLine {
+        line-height: 27px;
+        font-size: 18px;
+    }
+
+    .contents {
+        width: 55rem;
+        height: 100vh;
+        margin-top: 1vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightLine {
+        margin-right: 1vw;
+    }
+
+    .RLPStyle {
+        color: #777;
+        font-size: 0.9vw;
+        line-height: 1vw;
+    }
+
+    .smallImage {
+        width: 10rem;
+        border-radius: 3px;
+        margin: 1rem;
+    }
+
+    .baslik {
+        color: #fff;
+        font-size: 1em;
+        font-weight: 700;
+        overflow-wrap: anywhere;
+
+    }
+
+    .sure {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .icerikText {
+        padding: 0 1em 1em;
+        color: #d2d2d2;
+        font-size: 14px;
+        line-height: 20px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    /*  media queries */
+    @media screen and (max-width: 866px) {
+        .contents {
+            width: 70vw;
+        }
+
     }
 </style>
 
