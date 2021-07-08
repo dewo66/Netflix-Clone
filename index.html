@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link rel="icon" href="N.png" />
 
 </head>
@@ -14,10 +19,10 @@
 <body>
 
     <header
-        style="display:flex; z-index: 99; align-items: center; justify-content: space-between; position: fixed; height: 8vh; width: 100%; background-color: black;">
+        style="display:flex; z-index: 99; align-items: center; justify-content: space-between; position: fixed; height: 4vw; width: 100%; background-color: black;">
         <div style="display:flex; align-items: center;">
             <a href="">
-                <h2 style="color: red; font-size: 1vw; margin-right: 25px; margin-left: 2vw;">NETFLIX</h2>
+                <h2 style="color: red; font-size: 1.5vw; margin-right: 25px; margin-left: 2vw;">NETFLIX</h2>
             </a>
             <a href="index.html">Ana Sayfa</a>
             <a href="#Diziler">Diziler</a>
@@ -26,11 +31,11 @@
             <a href="#Listem">Listem</a>
         </div>
         <div style="display:flex; margin-left: 10vw; margin-right: 5vw; float: right;">
-            <img style=" margin-right: 25px; max-height: 3vh;"
+            <img style=" margin-right: 25px; max-height: 2vw;"
                 src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\search.svg">
-            <img style="margin-right: 25px;  max-height: 3vh;"
+            <img style="margin-right: 25px;  max-height: 2vw;"
                 src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\notification.svg">
-            <img style=" margin-right: 25px;  max-height: 3vh;"
+            <img style=" margin-right: 25px;  max-height: 2vw;"
                 src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\icons\user.svg">
         </div>
     </header>
@@ -503,14 +508,11 @@
             </div>
         </div>
     </div>
-
-    </div>
-
     <div
-        style=" display: flex; justify-content: center; align-items: flex-center; flex-direction: column; position: relative; ">
-        <div style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; letter-spacing: 2px;
-        ">
-            <img style="width: auto; height:auto;"
+        style=" display: flex; justify-content: center; align-items:flex-start; flex-direction: column; position: relative; ">
+        <div
+            style="position: absolute; z-index: 4; size: 10vw; margin-left: 3vw;  max-width: 40rem;   line-height: 1.6vw; letter-spacing: 2px;">
+            <img style="width: 25vh; height:auto; margin-top: 10vw; "
                 src="https://occ-0-4609-2774.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABVYA9Q7tZkRiKh95MD8wP-TtX-Z01ewj_1MUpcNDSakmVRozWnViTVPgc-Xs9BeLC8NG9EQA-wDSIgq5X30LBWjU7dipBbT-raZiPCRYOBK2yHv2UKmrzBRn5pLU8HDp-42yB3gFzDQyE1N0OGnXmwAj62dJ-Q2pQ-jBAFf5VpKX3w.webp?r=583">
             <div>
                 <h3 style="    font-size: 1.6vw;
@@ -550,108 +552,709 @@
 
                     Daha Fazla Bilgi</button>
             </div>
-
-
         </div>
+        <section class="longSwiperImage">
+            <h4 style="font-weight:bold;   letter-spacing: 1px;">
+                Sadece Netflix'te
+            </h4>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/ifCRgpXJMAE_puF509EDR7a7mqU/AAAABW9sFQT1xRfYCgkbL0A_pQHcvfus8dyR_wQw2n25GUoQptx77pgR54A1An5zwP8GU53T4e11wJhKcEHCodZ8QGDYwdacL73-Uqlav_rFNfSBlJ5Rusz2mKsqdko1YwdAV719PHKzWlCm-C59xPs_92jZ9q_A9wgI-VTIFCsykRbt7CxZVpj6rXJ3ZOqC6hANw4rPUXSj.webp?r=932">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/ifCRgpXJMAE_puF509EDR7a7mqU/AAAABatke5keOis31l73BYgALI9LVERpISVoK1DC7ts9q-pZ9Mwyv6R2K28YIs5Bm0ZlOaJ01DRZ7sWNnJsCxuTnI8xI71oRquLXUwkOUjP9nU21D_O5QWhBMEluWLJ_tzNdffvPjOfBohFX2JHDk3cNE6ClOSg7UzeuP_ftANQnuN7QESWIawikn-45FUWlLvpmc-frTGRT.webp?r=851">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/ifCRgpXJMAE_puF509EDR7a7mqU/AAAABWokMdFBWqFupNj-OVZI1-TT4xGDc10Uo1lkUcfIn5Vyag9e7oHnTGXzSjKLgne_CX_xzCsQXd0jBOOOmF7a-2Vr3HWzr_RdZ194P1kct7b5RLxBIV7_0Vov5a7eeX7LgA9KBXwLExsOeOMCE1If56_qTFLx6psx-tgdWERZH-R1CXa-VE2CePB4vG9NewDdtP9WkRVq.webp?r=a17">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/ifCRgpXJMAE_puF509EDR7a7mqU/AAAABTUUhLUpQlR1-eJCDF9zTkqfgtJCRq6wFHmi8qwvs4m0YOeTYNNwbCVQrDHXltsZ4SSWnS9Gk0eKH6MJUjYUIQI4-GH8NKZWwvHSXtgRhaIZtg0Sc_mBAlSBUq1tJd4Wlz9SH2ciaB5hOUxBerTZBjX9ErVsz3pCxeAgcbypkksj1Y499s98syZKaZuuq_2TgLnS1fcU.webp?r=d71">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="https://occ-0-4451-778.1.nflxso.net/dnm/api/v6/ifCRgpXJMAE_puF509EDR7a7mqU/AAAABe6zf8cUfsIv1dUQfy6j2aFPEx305_pRJDe0jqeKjba00HtvGlTdrc21K1aAl8QPmmGF3SwqxAo6JbkFp4HwRXTeVKp0yo3TX33Jg-UWaXWmntudKyIxXCqB78lf30G2J6BjwEjN614xsEMOjKnRec_IWIp67UYYja3BD7lKchx2_aHyvfA6rADnuz10HAOKNnHfp0ng.webp?r=6aa">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
         <img class="static-image"
             src=" https://occ-0-4609-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaG7A9Caw2GIqvr4L_C7umZwnFTVtEaTx_cC-UQLMPefcKKC_WpHO1w2deY9554eJmnA5CaBvTJT7gaU8Ro0LKkBugpC.webp?r=cd1">
-
     </div>
-    <div style=" position: relative; z-index: -1; background-color: #141414;">
+    <div style=" top: 40vw; position: relative; background-color: #141414;">
+
         <section style="padding-top: 40px;">
             <h4 style="font-weight:bold;   letter-spacing: 1px;">
                 Netflix'te Popüler
             </h4>
-            <div style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: nowrap;">
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\up\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a><a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img id="myImage"
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                            <video id="myVideo"
+                                style="background-color: rgb(0, 0, 0); position: absolute; width: 520px; height: 280px;"
+                                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                                muted="muted"></video>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section style="padding-top: 40px;">
             <h4 style="font-weight:bold;   letter-spacing: 1px;">
                 Netflix'te Popüler
             </h4>
-            <div style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: nowrap;">
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\up\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a><a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section style="padding-top: 40px;">
             <h4 style="font-weight:bold;   letter-spacing: 1px;">
                 Netflix'te Popüler
             </h4>
-            <div style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: nowrap;">
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\up\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a><a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section style="padding-top: 40px;">
             <h4 style="font-weight:bold;   letter-spacing: 1px;">
                 Netflix'te Popüler
             </h4>
-            <div style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: nowrap;">
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\up\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
-                <a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a><a href="#">
-                    <img src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg"
-                        style="padding-right: 10px; padding-top: 10px; max-width: 100%;"></a>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\despicable-me\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\children\hotel-transylvania\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\fight-club\small.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div href="#">
+                            <img
+                                src="C:\Users\dewo9\OneDrive\Masaüstü\netflink\images\films\drama\kings-speech\small.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
     </div>
@@ -701,7 +1304,7 @@
 
 
     </footer>
-    </div>
+
 
 
 
@@ -710,13 +1313,72 @@
 
 </body>
 <script>
-
     var popup = document.getElementById("detailPopup")
+
     function popupnone() {
         popup.style.display = "none";
     }
     function popupOn() {
         popup.style.display = "flex";
+    }
+
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }, breakpoints: {
+            100: {
+                slidesPerView: 3,
+                slidesPerGroup: 2,
+                spaceBetween: 20
+            },
+            500: {
+                slidesPerView: 3,
+                slidesPerGroup: 3,
+                spaceBetween: 20
+            },
+            800: {
+                slidesPerView: 5,
+                slidesPerGroup: 4,
+                spaceBetween: 5
+            },
+            1100: {
+                slidesPerView: 6,
+                slidesPerGroup: 5,
+                spaceBetween: 5
+            },
+
+        }
+
+
+    });
+
+
+    var vid = document.getElementById("myVideo");
+    var ima = document.getElementById("myImage");
+
+    $("#myImage").hover(playVid, pauseVid);
+    $("video").hover(playVid, pauseVid);
+
+    function playVid() {
+        vid.style.display = "inline"
+        vid.play();
+        ima.style.display = "none"
+
+    }
+    function pauseVid() {
+        ima.style.display = "inline"
+        vid.style.display = "none"
+        vid.pause();
+    }
+
+    function getOffset(el) {
+        const rect = el.getBoundingClientRect();
+        return {
+            left: rect.left + window.scrollX,
+            top: rect.top + window.scrollY
+        };
     }
 </script>
 <style>
@@ -744,12 +1406,11 @@
     }
 
     section {
-        margin-left: 6vh;
+        margin-left: 3vw;
     }
 
     .static-image {
         width: 100%;
-        z-index: 3;
     }
 
     .detailPopup {
@@ -941,48 +1602,60 @@
         margin-bottom: 20px;
     }
 
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #141414;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        transform: translate3d(0px, 0px, 0px);
+        transition-duration: 500ms;
+        transition-delay: 0ms;
+    }
+
+    .swiper-slide:hover {
+        z-index: 3;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .longSwiperImage {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        z-index: 11;
+        margin-top: 80vw;
+    }
+
+
     /*  media queries */
-    @media screen and (max-width: 866px) {
+    @media screen and (max-width: 800px) {
         .contents {
             width: 70vw;
+        }
+        .longSwiperImage {
+            margin-top: 90vw;
+        }
+
+    }
+    @media screen and (max-width: 1100px) {
+        
+        .longSwiperImage {
+            margin-top: 90vw;
         }
 
     }
 </style>
 
 </html>
-
-
-
-<!--
-    
-    let iceriklar  = {
-        filmşer: [{
-            isim: 
-            buyukResim
-            oyuncular
-            aciklamasi
-            benzerleri,
-            yili:
-        },
-        {
-            isim: 
-            buyukResim
-            oyuncular
-            aciklamasi
-            benzerleri,
-            yili:
-        }
-    ]
-    
-}
-let anaicerikOlacak = iceriklar.filmşer[0];
-let anicerkclass = document.getElementById("anaicerik")
-anicerkclass.style.backgroundImage = anaicerikOlacak.buyukResim;
-anicerkclass.innerText = anaicerikOlacak.aciklamasi;
-
-
-iceriklar.filmşer.forEach(film => {
-
-})
--->

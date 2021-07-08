@@ -5,51 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Popup</title>
 </head>
 
 <body>
-    <div id="videosList">
 
-        <div class="video">
-            <video class="thevideo" loop preload="none">
-                <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-                <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-            </video>
-        </div>
-    </div>
+    <img id="myImage" style=" position: absolute; width: 500px; height: 280px; object-fit:fill; "
+        src="../images/films/drama/fight-club/large.jpg">
+    <video id="myVideo" title="Advertisement"
+        style="background-color: rgb(0, 0, 0); position: absolute; width: 640px; height: 360px;"
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" muted="muted"></video>
 
 </body>
 <style>
-    #videosList {
-        max-width: 110rem;
-        overflow: hidden;
-    }
 
-    .video {
-        background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
-        height: 330px;
-        width: 600px;
-        margin-bottom: 50px;
-    }
-
-    video::-webkit-media-controls {
-        display: none !important;
-    }
 </style>
 <script>
-    var cip = $(".video").hover(hoverVideo, hideVideo);
+    var vid = document.getElementById("myVideo");
+    var ima = document.getElementById("myImage");
 
-    function hoverVideo(e) {
-        $('video', this).get(0).play();
+    $("#myImage").hover(playVid, pauseVid);
+    $("video").hover(playVid, pauseVid);
+
+    function playVid() {
+        vid.style.display = "inline"
+        vid.play();
+        ima.style.display = "none"
+
     }
-
-    function hideVideo(e) {
-        $('video', this).get(0).pause();
+    function pauseVid() {
+        ima.style.display = "inline"
+        vid.style.display = "none"
+        vid.pause();
     }
 </script>
 
