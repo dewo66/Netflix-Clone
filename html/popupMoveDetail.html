@@ -5,40 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <title>Popup</title>
+    <title>Document</title>
 </head>
 
 <body>
-
-    <img id="myImage" style=" position: absolute; width: 500px; height: 280px; object-fit:fill; "
-        src="../images/films/drama/fight-club/large.jpg">
-    <video id="myVideo" title="Advertisement"
-        style="background-color: rgb(0, 0, 0); position: absolute; width: 640px; height: 360px;"
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" muted="muted"></video>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="../images/films/drama/fight-club/small.jpg"
+                data-src="https://www.youtube.com/embed/fIHH5-HVS9o?autoplay=1" onclick="showVideo(this)" />
+        </div>
+        <div class="col-md-3">
+            <img src="../images/films/drama/fight-club/small.jpg"
+                data-src="https://www.youtube.com/embed/fIHH5-HVS9o?autoplay=1" onclick="showVideo(this)" />
+        </div>
+        <div class="col-md-3">
+            <img src="../images/films/drama/fight-club/small.jpg"
+                data-src="https://www.youtube.com/embed/fIHH5-HVS9o?autoplay=1" onclick="showVideo(this)" />
+        </div>
+    </div>
 
 </body>
-<style>
-
-</style>
 <script>
-    var vid = document.getElementById("myVideo");
-    var ima = document.getElementById("myImage");
-
-    $("#myImage").hover(playVid, pauseVid);
-    $("video").hover(playVid, pauseVid);
-
-    function playVid() {
-        vid.style.display = "inline"
-        vid.play();
-        ima.style.display = "none"
-
-    }
-    function pauseVid() {
-        ima.style.display = "inline"
-        vid.style.display = "none"
-        vid.pause();
+    function showVideo(obj) {
+        $("#youtube").attr("src", $(obj).data("src"));
+        $("#videoModal").on("hide.bs.modal", function () {
+            $("#youtube").removeAttr("src");
+        }).modal('show');
     }
 </script>
 
